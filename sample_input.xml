@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xc:XmlCache xmlns:xc="XmlCache" xc:action="Update">
+	<xc:XmlCacheArea xc:value="MarketParameters">
+		<mp:nickName xmlns:mp="mx.MarketParameters" xc:value="SCB.XML">
+			<mp:date xc:value="TODAY">
+				<sc:commodity xmlns:sc="mx.MarketParameters.commodity">
+					<scpr:futurePrice xmlns:scpr="mx.MarketParameters.Commodities.Futures.Prices">
+						<scpr:type xc:value="Basket">
+							<scpr:market xc:value="KR-KRX">
+								<scpr:label xc:value="000270-017670">
+									<scpr:maturity xc:type="Fields" xc:value="SPOT">
+										<mp:ask xc:keyFormat="N">0</mp:ask>
+										<mp:bid xc:keyFormat="N">0</mp:bid>
+									</scpr:maturity>
+								</scpr:label>
+							</scpr:market>
+						</scpr:type>
+					</scpr:futurePrice>
+				</sc:commodity>
+			</mp:date>
+		</mp:nickName>
+	</xc:XmlCacheArea>
+</xc:XmlCache>

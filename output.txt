@@ -1,0 +1,2 @@
+nickName, date, type, market, label, maturity, ask, bid
+SCB.XML, TODAY, Basket, KR-KRX, 000270-017670, SPOT, 0, 0
